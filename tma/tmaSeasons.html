@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en", style="background-color: black">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport", content="width=device-width, initial-scale=1">
+        <title>TMA-Fanpage</title>
+        <link rel="stylesheet" href="tmaSeasons.css">
+        <script>
+            // function ABOUTdoc()
+            // {
+            //   location.href="tmaHOME";
+            // }
+            function SEASONSdoc()
+            {
+              window.location.href = "tmaSeasons.html";
+            }
+            function HOMEdoc()
+            {
+              window.location.href = "tmaHOME.html";
+            }
+            function OTHERdoc()
+            {
+              window.location.href = "tmaOther.html";
+            }
+          </script>
+    </head>
+    <body>
+        <div class="navbar">
+            <div class="vertical-navbar">
+              <a><span style="color:#00b531 !important; font-size: 70px !important; margin-left:10px !important;">The Magnus Archives</span></a>
+              <a class="pointer" onclick="HOMEdoc()">Home</a>
+              <!-- <a class="pointer" onclick="ABOUTdoc()">About</a> -->
+              <a class="dropdown" onclick="SEASONSdoc()">Seasons</a>
+              <a class="pointer" onclick="OTHERdoc()">Other</a>
+            </div>
+        </div>
+        <p class="pick">Pick a season:</p>
+        <select onchange="javascript:location.href=this.value;">
+          <option value="">--</option>
+          <option value="Pre-Season">Pre-Season</option>
+          <option value="tmaSeason1.html">Season 1</option>
+          <option value="Season 2">Season 2</option>
+          <option value="Season 3">Season 3</option>
+          <option value="Season 4">Season 4</option>
+          <option value="Season 5">Season 5</option>
+        </select>
+        <div class="ABOUT">
+          <p>
+            <a style="font-size:40px; color:#00b531; text-transform: uppercase; display: flex;
+            flex-direction: initial; justify-content: center;" href="https://en.wikipedia.org/wiki/The_Magnus_Archives">
+            Taken from The Magnus Archives Wikipedia</a>
+            <br><br>
+            "The podcast is initially presented as a horror anthology, following the efforts of Jonathan Sims, Head Archivist
+            of the Magnus Institute, to record on tape a number of statements of paranormal events that have proven impossible to record
+            through conventional, digital means. Over the course of <span style="color:#00b531">five seasons</span>, a more complex metaplot develops, revealing the nature of the Magnus Institute, its head, Elias Bouchard, and the nature of the paranormal events recorded in the statements."
+          <br><br><br>
+          <a style="font-size:40px; color:#00b531; text-transform: uppercase; display: flex;
+            flex-direction: initial; justify-content: center;" href="https://the-magnus-archives.fandom.com/wiki/The_Magnus_Archives:_Season_1">
+            Taken from The Magnus Archives Wikia</a>
+            <br><br>
+          <span style="font-size: 40px; color: #00b531; display: flex;
+          flex-direction: initial;
+          justify-content: center;">SEASON 1:</span>
+          <br>
+          "Jonathan Sims is promoted to Head Archivist of the Magnus Institute after the death of the previous Archivist, Gertrude Robinson. Seeing that the Archives are in a state of complete disorder,
+          John decides to organise, digitise, and record audio versions of the case files in the form of an introduction, the statement, and supplemental commentary. However, certain statements play back as garbled static on digital recordings and must be recorded using tape recorders."
+          </p>
+        </div>

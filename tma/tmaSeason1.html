@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en", style="background-color: black">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport", content="width=device-width, initial-scale=1">
+        <title>TMA-Fanpage</title>
+        <link rel="stylesheet" href="tmaSeasons.css">
+        <script>
+            // function ABOUTdoc()
+            // {
+            //   location.href="#tmaABOU";
+            // }
+            function SEASONSdoc()
+            {
+              window.location.href = "tmaSeasons.html";
+            }
+            function HOMEdoc()
+            {
+              window.location.href = "tmaHOME.html";
+            }
+            function OTHERdoc()
+            {
+              window.location.href = "tmaOther.html";
+            }
+          </script>
+    </head>
+    <body>
+        <div class="navbar">
+            <div class="vertical-navbar">
+              <a><span style="color:#00b531 !important; font-size: 70px !important; margin-left:10px !important;">The Magnus Archives</span></a>
+              <a class="pointer" onclick="HOMEdoc()">Home</a>
+              <!-- <a class="pointer" onclick="ABOUTdoc()">About</a> -->
+              <a class="dropdown" onclick="SEASONSdoc()">Seasons</a>
+              <a class="pointer" onclick="OTHERdoc()">Other</a>
+            </div>
+        </div>
+        <p class="pick2">Pick an episode</p>
+        <!-- <select onchange="javascript:location.href=this.value;">
+          <option value="">--</option>
+          <option value="E1.html">Episode 1</option>
+          <option value="Season 2">Episode 2</option>
+          <option value="Season 3">Episode 3</option>
+          <option value="Season 4">Episode 4</option>
+          <option value="Season 5">Episode 5</option> -->
+          <!-- CHANGE THIS TO SEARCH AND AUTOCOMPLETE OPTION^^^ -->
+        </select>
+        <div class="images">
+            <div class="box b-1" style="--img: url(https://64.media.tumblr.com/fc718d2545cdf09f5ce0541e09ed700a/e295a4fd0b016822-97/s1280x1920/bf0c4314a5809809653c8d2cae26dcf3af5ca6a4.png);"
+            data-text="S1E1: Angler Fish" onclick="javascript:location.href='E1.html'"></div>
+            <div class="box b-2" style="--img: url(https://64.media.tumblr.com/e400de7eee2955faae9a08f20fed264b/e295a4fd0b016822-41/s1280x1920/fa3268e30c0b8298f9a6d7f8b605122f8b73f29f.png);"
+            data-text="S1E2: Do Not Open"></div>
+            <div class="box b-3" style="--img: url(https://64.media.tumblr.com/54976e208bb6a79f476e8ea2a1824c03/e295a4fd0b016822-39/s1280x1920/320e4fed9645fa8ac07ea3f8552a180bd90b375f.jpg);"
+            data-text="S1E3: Across The Street"></div>
+            <div class="box b-4" style="--img: url(https://64.media.tumblr.com/a17485219aa3df401dee4defaa86147b/e295a4fd0b016822-ce/s1280x1920/8e9ab33e2dca24a3d2adb4318ab56a776e286967.png);"
+            data-text="S1E4: Page Turner"></div>
+            <div class="box b-5" style="--img: url(https://64.media.tumblr.com/6a9fdad20174bbe68f5c00b2d19807b4/e295a4fd0b016822-81/s1280x1920/e8226396f6b8e6d4a5d2d4cd6d531f3662b1e22c.png);"
+            data-text="S1E5: Thrown Away"></div>
+            <div class="box b-6" style="--img: url(https://64.media.tumblr.com/19d19dc79ea6bc66574b7bcc72c69fb8/e295a4fd0b016822-3c/s1280x1920/ac756ae771a8a0850e7a4d44aa4499ea825c2d0a.png);"
+            data-text="S1E6: Squirm"></div>
+        </div>
+    </body>
+    </html>
